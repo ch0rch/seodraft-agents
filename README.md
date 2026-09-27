@@ -14,7 +14,7 @@ Ready-made agent templates and plugins that connect to [seodraft](https://seodra
 - **Quality checks against AI slop:** no filler, correct keyword placement, and no [keyword cannibalization](https://seodraft.app/features/keyword-cannibalization) with your existing posts.
 - **Delivery of approved drafts only**, as Markdown, HTML, or a git draft in your repository. There is no publish tool.
 
-The server has 38 tools and uses OAuth (Clerk) with dynamic client registration and PKCE, so there's no API key or client ID to paste. Details: [seodraft MCP server](https://seodraft.app/features/mcp-server).
+The server has 37 tools and uses OAuth (Clerk) with dynamic client registration and PKCE, so there's no API key or client ID to paste. Details: [seodraft MCP server](https://seodraft.app/features/mcp-server).
 
 ### Why "without AI slop"?
 
