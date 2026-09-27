@@ -27,7 +27,6 @@ Most AI-written posts read the same: a generic intro, padded paragraphs, invente
 | [`.cursor-plugin/`](.cursor-plugin), [`mcp.json`](mcp.json), [`skills/`](skills), [`rules/`](rules) | A Cursor plugin: the seodraft MCP server plus two skills and an editorial rule |
 | [`eve/`](eve) | An [eve](https://eve.dev) agent template (Vercel's agent framework) with a Deploy button |
 | [`grok-bot/`](grok-bot) | A link to the ready-made Grok Bot template |
-| [`.mcp.json`](.mcp.json) | Project MCP config for Claude Code and other clients that read `.mcp.json` |
 
 This repository contains only configuration, prompts, and docs. seodraft itself is a hosted, closed-source service.
 
