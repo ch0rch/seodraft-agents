@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="seodraft">
+  <rect width="256" height="256" rx="48" fill="#1c1917"/>
+  <text x="128" y="160" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="112" font-weight="700" fill="#f7f4ee">sd</text>
+  <rect x="64" y="186" width="128" height="10" rx="5" fill="#f7f4ee" opacity="0.6"/>
+</svg>

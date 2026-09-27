@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "seodraft": {
+      "type": "http",
+      "url": "https://seodraft.app/mcp"
+    }
+  }
+}

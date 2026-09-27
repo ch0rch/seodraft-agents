@@ -1,0 +1,14 @@
+{
+  "name": "seodraft",
+  "displayName": "seodraft",
+  "version": "1.0.0",
+  "description": "Connect Cursor to seodraft, the SEO agent that writes without AI slop: topics with measured search volume, SERP briefs, evidence-based drafts, quality checks, and delivery of approved posts as Markdown, HTML, or git drafts.",
+  "author": {
+    "name": "Chorch"
+  },
+  "homepage": "https://seodraft.app",
+  "repository": "https://github.com/ch0rch/seodraft-agents",
+  "license": "MIT",
+  "keywords": ["seo", "content-marketing", "blog", "mcp", "keyword-research", "serp", "ai-writing"],
+  "logo": "assets/logo.svg"
+}
