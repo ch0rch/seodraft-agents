@@ -40,7 +40,7 @@ export default defineMcpClientConnection({
   description:
     "seodraft SEO content desk: read and update the site profile, propose and plan " +
     "blog topics with measured search volume, research SERP briefs, store evidence, " +
-    "write and update drafts, run the quality gate (filler, keyword placement, " +
+    "write and update drafts, run the rules check (filler, keyword placement, " +
     "cannibalization), manage the content calendar, and deliver approved drafts.",
   auth: connect(seodraftConnector),
   approval: ({ toolName }) =>

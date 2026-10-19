@@ -81,7 +81,7 @@ Start from the ready-made template: https://x.ai/bot/OkT4Dbjy4xVf7oVBCr8hL. It i
 
 ### eve (Vercel)
 
-The [`eve/`](eve) folder is a complete eve agent with a user-scoped OAuth connection to seodraft through Vercel Connect, the content desk skills, and approval gates on delivery. See [`eve/README.md`](eve/README.md) for setup and the Deploy button.
+The [`eve/`](eve) folder is a complete eve agent with a user-scoped OAuth connection to seodraft through Vercel Connect, the content desk skills, and human approval required before delivery. See [`eve/README.md`](eve/README.md) for setup and the Deploy button.
 
 ### Other MCP clients
 
@@ -110,11 +110,11 @@ seodraft is also listed in the official MCP registry as `app.seodraft/seodraft` 
 The skills in [`skills/`](skills) follow the Agent Skills `SKILL.md` format, so they work in Cursor, eve, Grok Bot, and other clients that load skills:
 
 - [`getting-started-seodraft`](skills/getting-started-seodraft/SKILL.md): connect seodraft and set up the site profile, one question at a time.
-- [`seodraft-content-desk`](skills/seodraft-content-desk/SKILL.md): profile → topics → research → evidence → draft → quality gate → review → delivery, with explicit approval before anything is delivered.
+- [`seodraft-content-desk`](skills/seodraft-content-desk/SKILL.md): profile → topics → research → evidence → draft → the rules → review → delivery, with explicit approval before anything is delivered.
 
 ## Pricing
 
-seodraft costs **$5/month or $50/year**, after a **7-day free trial with no card**. The writing runs on the AI subscription you already pay for. The only other cost is your own DataForSEO usage, and seodraft shows the estimated cost before each paid call. See [pricing](https://seodraft.app/pricing).
+seodraft costs **$9/month flat for one workspace (one site) with up to 3 people**, and extra workspaces are $5/month each, after a **7-day free trial with no card**. The writing runs on the AI subscription you already pay for. The only other cost is your own DataForSEO usage, and seodraft shows the estimated cost before each paid call. See [pricing](https://seodraft.app/pricing).
 
 ## License
 

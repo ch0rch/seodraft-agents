@@ -1,6 +1,6 @@
 # seodraft SEO content desk: eve agent template
 
-An [eve](https://eve.dev) agent that runs an SEO content desk through [seodraft](https://seodraft.app), the SEO agent that writes without AI slop. The agent connects to the seodraft MCP server at `https://seodraft.app/mcp`, plans blog topics with measured search volume, researches SERP briefs, drafts from evidence you supply, runs seodraft's quality gate, and delivers a draft only after you approve it.
+An [eve](https://eve.dev) agent that runs an SEO content desk through [seodraft](https://seodraft.app), the SEO agent that writes without AI slop. The agent connects to the seodraft MCP server at `https://seodraft.app/mcp`, plans blog topics with measured search volume, researches SERP briefs, drafts from evidence you supply, runs seodraft's rules check, and delivers a draft only after you approve it.
 
 eve is Vercel's open-source agent framework (currently in beta). This template was written against eve `0.67.x`.
 
@@ -17,12 +17,12 @@ agent/
     seodraft-content-desk/         # plan → research → evidence → draft → check → review → deliver
 ```
 
-The connection gates these seodraft tools behind human approval: `deliver_draft`, `approve_post`, `approve_profile`, `archive_post`, `archive_topic`, and `merge_topics`. Everything else (reading the profile, proposing topics, research, drafting, running the gate) runs without a prompt. seodraft has no publish tool; delivery writes a draft file or a git draft, never a live post.
+The connection puts these seodraft tools behind human approval: `deliver_draft`, `approve_post`, `approve_profile`, `archive_post`, `archive_topic`, and `merge_topics`. Everything else (reading the profile, proposing topics, research, drafting, running the rules check) runs without a prompt. seodraft has no publish tool; delivery writes a draft file or a git draft, never a live post.
 
 ## Requirements
 
 - Node.js 24 or newer
-- A seodraft account. The 7-day trial at https://seodraft.app needs no card; after that it's $5/month or $50/year.
+- A seodraft account. The 7-day trial at https://seodraft.app needs no card; after that it's $9/month flat for one workspace (one site) with up to 3 people, and extra workspaces are $5/month each.
 - For measured search volume and live SERPs, a DataForSEO account connected inside seodraft. seodraft spends only your own DataForSEO balance.
 - A Vercel account for Vercel Connect (OAuth) and deployment.
 

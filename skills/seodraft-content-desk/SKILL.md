@@ -20,7 +20,7 @@ seodraft (https://seodraft.app) is an SEO agent exposed as an MCP server at `htt
 3. **Research.** Run seodraft's research on the chosen topic to get the SERP brief. Summarize search intent, what the top results cover, and the gap to exploit.
 4. **Evidence.** Ask the owner for first-hand material: examples, data, screenshots, opinions. Add it as evidence in seodraft.
 5. **Draft.** Have seodraft write the draft from the brief and evidence.
-6. **Check.** Run seodraft's quality gate. Fix every failing rule (keyword placement, filler, cannibalization) and rerun until it passes.
-7. **Review.** Show the owner the title, meta description, outline, and gate result. Apply their edits.
+6. **Check.** Run seodraft's rules check. Fix every failing rule (keyword placement, filler, cannibalization) and rerun until it passes.
+7. **Review.** Show the owner the title, meta description, outline, and the result of the rules check. Apply their edits.
 8. **Deliver.** Only after approval, approve and deliver the draft in the owner's format (Markdown, HTML, or git draft). Report where it went.
 9. **Calendar.** Offer to schedule the next topic in seodraft's calendar.

@@ -28,7 +28,7 @@ La URL del servidor es siempre la misma: `https://seodraft.app/mcp`. La autentic
 
 ## Precio
 
-**US$5 por mes o US$50 por año**, con **7 días de prueba gratis sin tarjeta**. Más info en [seodraft.app/es/pricing](https://seodraft.app/es/pricing).
+**US$9 por mes por un workspace (un sitio) con hasta 3 personas**, y cada workspace extra cuesta US$5 por mes, con **7 días de prueba gratis sin tarjeta**. Más info en [seodraft.app/es/pricing](https://seodraft.app/es/pricing).
 
 ## Licencia
 

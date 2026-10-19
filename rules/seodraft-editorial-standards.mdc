@@ -5,7 +5,7 @@ alwaysApply: false
 
 When writing or editing blog content with seodraft:
 
-- Run seodraft's quality gate before calling a draft done, and fix every failing rule.
+- Run seodraft's rules check before calling a draft done, and fix every failing rule.
 - Use only facts the owner supplied or seodraft returned. No invented statistics, customers, quotes, or sources.
 - One primary keyword per post. Check for cannibalization with existing posts before starting a new one.
 - No filler intros, no "in today's fast-paced world", no summaries that repeat the post.

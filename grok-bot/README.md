@@ -9,7 +9,7 @@ A ready-made [Grok Bot](https://x.ai/bot) template that turns your bot into an S
 - Plans blog topics with measured search volume from your own DataForSEO account
 - Researches the SERP for each topic and writes a brief
 - Drafts from evidence you supply, with no invented stats, quotes, or customers
-- Runs seodraft's quality gate (filler, keyword placement, cannibalization) before you see the draft
+- Runs seodraft's rules check (filler, keyword placement, cannibalization) before you see the draft
 - Delivers only after you approve, as Markdown, HTML, or a git draft
 
 ## Set up
@@ -22,4 +22,4 @@ The template includes the same two skills as this repository's [`skills/`](../sk
 
 ## Pricing
 
-seodraft costs $5/month or $50/year after the 7-day trial. DataForSEO usage is billed by DataForSEO to your own account.
+seodraft costs $9/month flat for one workspace (one site) with up to 3 people, and extra workspaces are $5/month each, after the 7-day free trial with no card. DataForSEO usage is billed by DataForSEO to your own account.
